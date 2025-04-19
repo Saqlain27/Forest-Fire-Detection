@@ -29,3 +29,39 @@ Built a deeper CNN with three Conv2D and MaxPooling2D layers.
 Added a Dropout layer to reduce overfitting.
 
 Used binary class mode for classification (fire, nofire).
+
+Week 3 Enhancements:
+
+Compiled the CNN model using Adam optimizer and binary cross-entropy loss.
+
+Trained the model for 12 epochs with validation.
+
+Plotted training and validation accuracy and loss curves.
+
+Evaluated model performance using the test set.
+
+Saved the trained model (FFD.keras).
+
+Created a predict_fire() function to classify new images as fire or nofire.
+
+Requirements:
+
+Python 3.x
+
+TensorFlow 2.x
+
+Matplotlib
+
+NumPy
+
+KaggleHub
+
+Future Enhancements:
+
+Add data augmentation (rotation, zoom, flip).
+
+Implement early stopping and model checkpoints.
+
+Use transfer learning with a pre-trained model like ResNet or EfficientNet.
+
+Visualize confusion matrix and classification report.
